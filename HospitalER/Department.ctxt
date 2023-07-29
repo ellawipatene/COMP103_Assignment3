@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Department
+comment0.text=\n\ A\ treatment\ Department\ (Surgery,\ X-ray\ room,\ \ ER,\ Ultrasound,\ etc)\n\ Each\ department\ will\ need\n\ -\ A\ name,\n\ -\ A\ maximum\ number\ of\ patients\ that\ can\ be\ treated\ at\ the\ same\ time\n\ -\ A\ Set\ of\ Patients\ that\ are\ currently\ being\ treated\n\ -\ A\ Queue\ of\ Patients\ waiting\ to\ be\ treated.\n\ \ \ \ (ordinary\ queue,\ or\ priority\ queue,\ depending\ on\ argument\ to\ constructor)\n
+comment1.params=name\ max\ priority
+comment1.target=Department(java.lang.String,\ int,\ boolean)
+comment1.text=\n\ This\ creates\ a\ new\ Department\ object\ \n
+comment2.params=y
+comment2.target=void\ redraw(double)
+comment2.text=\n\ Draw\ the\ department\:\ the\ patients\ being\ treated\ and\ the\ patients\ waiting\n\ You\ may\ need\ to\ change\ the\ names\ if\ your\ fields\ had\ different\ names\n
+comment3.params=
+comment3.target=java.util.Queue\ getWaitingRoom()
+comment4.params=
+comment4.target=java.util.Set\ getTreatmentRoom()
+comment5.params=
+comment5.target=int\ getMaxPatients()
+comment6.params=
+comment6.target=java.lang.String\ getName()
+comment7.params=p
+comment7.target=void\ addPatient(Patient)
+comment7.text=\n\ Add\ a\ new\ patient\ into\ the\ treatment\ room\ if\ there\ is\ enough\ room\n\ Else\ they\ will\ be\ added\ to\ the\ waiting\ room\ \n
+comment8.params=
+comment8.target=void\ movePatient()
+comment8.text=\n\ If\ the\ treatmentRoom\ is\ not\ full,\ get\ a\ patient\ from\ the\ front\ of\ the\ waiting\ room\n\ queue\ and\ put\ them\ into\ the\ treatment\ room.\ \n
+comment9.params=treatment_room\ waiting_room
+comment9.target=void\ updateRooms(java.util.Set,\ java.util.Queue)
+numComments=10
